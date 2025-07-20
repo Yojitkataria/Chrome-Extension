@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Title Viewer",
+  "version": "1.0",
+  "description": "Shows the current tab's title in a popup.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "image.png"
+  },
+  "icons": {
+    "128": "image.png"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
